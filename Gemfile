@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.3.0'
 
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.2'
 
 gem 'mysql2', '~> 0.3.15'
 
@@ -23,7 +23,7 @@ gem 'rails4_upgrade'
 
 gem 'postgres_ext'
 
-gem 'delayed_job_active_record', '4.0.2'
+gem 'delayed_job_active_record', '4.1.0'
 
 gem 'figaro', '0.7.0'
 
